@@ -13,12 +13,12 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/MoviesUpdate_07")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MoviesUpdate_07")],
     ]
 
     START = """
@@ -33,7 +33,7 @@ If you don't trust this bot,
 Still reading?
 You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
 
-By @StarkBots
+By @MoviesUpdate_07
     """
 
     HELP = """
